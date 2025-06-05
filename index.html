@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ຮຽນພາສາຈີນກາງເບື້ອງຕົ້ນ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ຮຽນພາສາຈີນກາງເບື້ອງຕົ້ນ</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">ໜ້າຫຼັກ</a></li>
+                <li><a href="#pinyin-lesson">ບົດຮຽນ Pinyin</a></li>
+                <li><a href="#pinyin-quiz">ແບບຝຶກຫັດ Pinyin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="container">
+            <h2>ຍິນດີຕ້ອນຮັບສູ່ເວັບໄຊທ໌ຮຽນພາສາຈີນກາງ!</h2>
+            <p>ມາຮຽນຮູ້ພື້ນຖານພາສາຈີນກາງນໍາກັນ, ເລີ່ມຕົ້ນຈາກ Pinyin, ຄຳສັບ, ແລະປະໂຫຍກທີ່ຈຳເປັນສຳລັບຜູ້ເລີ່ມຕົ້ນ.</p>
+            <p>ພາສາຈີນກາງ (Mandarin Chinese) ເປັນພາສາທີ່ມີຄົນເວົ້າຫຼາຍທີ່ສຸດໃນໂລກ. ການຮຽນຮູ້ພາສານີ້ຈະເປີດໂລກໃໝ່ໃຫ້ກັບທ່ານ.</p>
+        </section>
+
+        <section id="pinyin-lesson" class="container lesson-section">
+            <h2>ບົດຮຽນ: Pinyin (ພິນອິນ)</h2>
+            <p>Pinyin ແມ່ນລະບົບການຖອດສຽງພາສາຈີນດ້ວຍຕົວອັກສອນລາຕິນ (ຄືຕົວອັກສອນພາສາອັງກິດ), ເຊິ່ງຊ່ວຍໃຫ້ຜູ້ຮຽນອອກສຽງໄດ້ຢ່າງຖືກຕ້ອງ.</p>
+            <h3>ສຽງພະຍັນຊະນະ (Initials):</h3>
+            <ul>
+                <li>b (ປ)</li>
+                <li>p (ພ)</li>
+                <li>m (ມ)</li>
+                <li>f (ຟ)</li>
+                <li>d (ຕ)</li>
+                <li>t (ທ)</li>
+                <li>n (ນ)</li>
+                <li>l (ລ)</li>
+                <li>g (ກ)</li>
+                <li>k (ຄ)</li>
+                <li>h (ຮ)</li>
+                <li>j (ຈ)</li>
+                <li>q (ຊ)</li>
+                <li>x (ສ)</li>
+                <li>zh (ຈຣ)</li>
+                <li>ch (ຊຣ)</li>
+                <li>sh (ສຣ)</li>
+                <li>r (ຣ)</li>
+                <li>z (ຈຶ)</li>
+                <li>c (ຊຶ)</li>
+                <li>s (ສຶ)</li>
+            </ul>
+            <h3>ສຽງສະຫຼະ (Finals):</h3>
+            <ul>
+                <li>a (ອາ)</li>
+                <li>o (ໂອ)</li>
+                <li>e (ເອີ)</li>
+                <li>i (ອີ)</li>
+                <li>u (ອູ)</li>
+                <li>ü (ອູຍ)</li>
+                <li>ai (ອາຍ)</li>
+                <li>ei (ເອີຍ)</li>
+                <li>ao (ອາວ)</li>
+                <li>ou (ໂອວ)</li>
+                <li>an (ອານ)</li>
+                <li>en (ເອິນ)</li>
+                <li>ang (ອາງ)</li>
+                <li>eng (ເອີງ)</li>
+            </ul>
+            <h3>ວັນນະຍຸດ (Tones):</h3>
+            <p>ພາສາຈີນມີ 4 ວັນນະຍຸດຫຼັກ ແລະ 1 ວັນນະຍຸດເບົາ (Neutral Tone).</p>
+            <ol>
+                <li>ສຽງສູງຄົງທີ່ (Flat Tone): ma (ແມ່) - mā</li>
+                <li>ສຽງຂຶ້ນ (Rising Tone): má (ສານ Hemp) - má</li>
+                <li>ສຽງລົງແລ້ວຂຶ້ນ (Falling-Rising Tone): mǎ (ມ້າ) - mǎ</li>
+                <li>ສຽງລົງ (Falling Tone): mà (ດ່າ) - mà</li>
+                <li>ສຽງເບົາ (Neutral Tone): ma (ຄຳຖາມ) - ma</li>
+            </ol>
+        </section>
+
+        <section id="pinyin-quiz" class="container quiz-section">
+            <h2>ແບບຝຶກຫັດ: Pinyin Quiz</h2>
+            <p>ທາຍວ່າຄຳ Pinyin ນີ້ແມ່ນສຽງວັນນະຍຸດໃດ.</p>
+            <div id="quiz-container">
+                <p id="quiz-question">ກົດປຸ່ມ "ເລີ່ມ Quiz" ເພື່ອເລີ່ມຕົ້ນ!</p>
+                <div id="quiz-options">
+                    <button class="option-btn" data-value="1">Tone 1</button>
+                    <button class="option-btn" data-value="2">Tone 2</button>
+                    <button class="option-btn" data-value="3">Tone 3</button>
+                    <button class="option-btn" data-value="4">Tone 4</button>
+                </div>
+                <p id="quiz-feedback"></p>
+                <button id="start-quiz-btn">ເລີ່ມ Quiz</button>
+                <button id="next-question-btn" style="display: none;">ຄຳຖາມຕໍ່ໄປ</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ຮຽນພາສາຈີນກາງເບື້ອງຕົ້ນ. ສະຫງວນລິຂະສິດ.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+  </html>
